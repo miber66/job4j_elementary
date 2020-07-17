@@ -10,10 +10,14 @@ public class ConverterTest {
         int in = 140;
         int expected = 2;
         int out = Converter.rubleToEuro(in);
-        Assert.assertEquals(expected,out);
+        Assert.assertEquals(expected, out);
     }
 
     @Test
-    public void whenConvert() {
+    public void whenConvert180rblThen3Dollar() {
+        int in = 180;
+        int expected = 3;
+        int out = Converter.rubleToDollar(in);
+        Assert.assertEquals(expected, out);
     }
 }
