@@ -6,14 +6,12 @@ public class Fitness {
         while (ivan < nik) {
             ivan *= 3;
             nik *= 2;
-            mounth += 1;
-            System.out.println(mounth);
+            mounth++;
         }
         return mounth;
     }
 
     public static void main(String[] args) {
-        calc(90, 100);
-        System.out.println();
+        System.out.println(calc(90, 90));
     }
 }

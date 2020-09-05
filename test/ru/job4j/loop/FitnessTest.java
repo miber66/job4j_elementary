@@ -24,4 +24,10 @@ public class FitnessTest {
         int mounth = Fitness.calc(50, 95);
         assertThat(mounth, is(2));
     }
+
+    @Test
+    public void whenIvanEqNik() {
+        int mounth = Fitness.calc(90, 90);
+        assertThat(mounth, is(0));
+    }
 }
