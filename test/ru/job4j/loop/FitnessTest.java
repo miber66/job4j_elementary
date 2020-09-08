@@ -28,6 +28,6 @@ public class FitnessTest {
     @Test
     public void whenIvanEqNik() {
         int mounth = Fitness.calc(90, 90);
-        assertThat(mounth, is(0));
+        assertThat(mounth, is(1));
     }
 }
